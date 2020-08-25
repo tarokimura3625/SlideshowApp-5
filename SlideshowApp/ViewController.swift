@@ -98,6 +98,8 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any!){
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         
+        self.timer.invalidate()
+        
         resultViewController.picture = imageIndex
             
         }

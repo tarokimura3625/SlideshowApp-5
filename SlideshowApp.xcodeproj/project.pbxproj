@@ -25,7 +25,7 @@
 		6463D90424DFBB5300DBAFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6463D90724DFBB5300DBAFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6463D90924DFBB5300DBAFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64748A5B24F29C0E001ACC15 /* SlideshowApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SlideshowApp; sourceTree = "<group>"; };
+		64748A5B24F29C0E001ACC15 /* SlideshowApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SlideshowApp; sourceTree = "<group>"; };
 		647A383D24ECC87F00966085 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
