@@ -98,11 +98,14 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any!){
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         
-        self.timer.invalidate()
-        
+        if self.timer != nil {
+        self.timer.invalidate()   // タイマーを停止する
+        self.timer = nil
+            
         resultViewController.picture = imageIndex
             
         }
-            
-        }
+    }
+}
+
 
